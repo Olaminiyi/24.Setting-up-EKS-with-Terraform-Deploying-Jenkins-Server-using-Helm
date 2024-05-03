@@ -10,7 +10,6 @@ In this extensive project, our primary emphasis will be on the practical real-wo
 
 ### Building EKS with Terraform
 
-<<<<<<< HEAD
 - Create a directory on your local machine - eks and create an s3 bucket
    ```
     mkdir eks && cd eks
@@ -692,7 +691,7 @@ kubectl --namespace jenkins port-forward svc/jenkins 8080:8080
 
 Port forwarding in Kubernetes is a way to access a specific port of a container running within a Kubernetes cluster from outside the cluster. It allows you to establish a temporary network connection from your local machine or another system to a specific port of a pod in the Kubernetes cluster, enabling you to interact with the application or service running in that pod. Port forwarding is commonly used for debugging, testing, or accessing services that are not exposed publicly.
 
-Go to the browser and access the Jenkins using 127.0.0.1:8080 or localhost:8080
+Go to the browser and access the Jenkins Deployed using 127.0.0.1:8080 or localhost:8080
 
 ![alt text](images/24.34.png)
 ![alt text](images/24.35.png)
@@ -703,15 +702,6 @@ Go to the browser and access the Jenkins using 127.0.0.1:8080 or localhost:8080
 
 
 
-=======
-Create a directory on your local machine - eks and create an s3 bucket
-
- mkdir eks && cd eks
-
- aws s3api create-bucket --bucket eks-terraform-deploy --region us-west-2
-
-![alt text](images/24.1.png)
->>>>>>> 46292dfe38be7d6e3891b646f63e76192a298feb
 
 
 
@@ -722,15 +712,5 @@ Create a directory on your local machine - eks and create an s3 bucket
 
 
 
-<<<<<<< HEAD
 
 
-=======
- ### Errors
- 1. after running this command 'aws s3api create-bucket --bucket eks-terraform-deploy --region us-west-2' i got this error 
-
-"An error occurred (IllegalLocationConstraintException) when calling the CreateBucket operation: The unspecified location constraint is incompatible for the region specific endpoint this request was sent to."
-
-- i resolved it by adding the LocationConstraint, like this: 
-aws s3api create-bucket --bucket eks-terraform-deploy1 --region us-west-2 --create-bucket-configuration LocationConstraint=us-west-2
->>>>>>> 46292dfe38be7d6e3891b646f63e76192a298feb
