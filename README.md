@@ -17,7 +17,7 @@ In this extensive project, our primary emphasis will be on the practical real-wo
    ```
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  ### Errors
- 1. after running this command 'aws s3api create-bucket --bucket eks-terraform-deploy --region us-west-2' i got this error 
+ 1. after running this command 'aws s3api create-bucket --bucket eks-terraform-deploy --region us-west-2' i got this error: 
 
 "An error occurred (IllegalLocationConstraintException) when calling the CreateBucket operation: The unspecified location constraint is incompatible for the region specific endpoint this request was sent to."
 
