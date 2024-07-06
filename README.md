@@ -15,7 +15,7 @@ In this extensive project, our primary emphasis will be on the practical real-wo
     mkdir eks && cd eks
     aws s3api create-bucket --bucket eks-terraform-deploy1 --region us-west-2
    ```
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  ### Errors
  1. after running this command 'aws s3api create-bucket --bucket eks-terraform-deploy --region us-west-2' i got this error: 
 
