@@ -10,7 +10,7 @@ In this extensive project, our primary emphasis will be on the practical real-wo
 
 ### Building EKS with Terraform
 
-- Create a directory on your local machine - eks and create an s3 bucket
+- Create a directory on your local machine - eks and create an s3 bucket.
    ```
     mkdir eks && cd eks
     aws s3api create-bucket --bucket eks-terraform-deploy1 --region us-west-2
