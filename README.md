@@ -8,7 +8,7 @@ In this extensive project, our primary emphasis will be on the practical real-wo
 
 - Finally, I will execute the deployment process via CI/CD using Jenkins.
 
-### Building EKS with Terraform
+### Building EKS with Terraform.
 
 - Create a directory on your local machine - eks and create an s3 bucket.
    ```
