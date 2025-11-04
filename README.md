@@ -1,4 +1,4 @@
-# 24.Setting up EKS with Terraform and Deploying through Jenkins Server using Helm
+# 24.Setting up EKS with Terraform and Deploying through Jenkins Server using Helm.
 
 In this extensive project, our primary emphasis will be on the practical real-world implementation of Kubernetes deployment and management. This involves a series of tasks geared toward guaranteeing the resilience and scalability of our system. The key objectives include:
 
