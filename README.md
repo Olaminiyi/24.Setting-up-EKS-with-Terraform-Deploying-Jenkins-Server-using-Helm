@@ -6,7 +6,7 @@ In this extensive project, our primary emphasis will be on the practical real-wo
 
 - Furthermore, I intend to deploy multiple applications using HELM, leveraging Kubernetes objects in conjunction with Helm. This approach includes dynamic provisioning of volumes to enable stateful pods.
 
-- Finally, I will execute the deployment process via CI/CD using Jenkins
+- Finally, I will execute the deployment process via CI/CD using Jenkins.
 
 ### Building EKS with Terraform.
 
