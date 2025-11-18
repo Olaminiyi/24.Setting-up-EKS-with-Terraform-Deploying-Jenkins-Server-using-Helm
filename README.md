@@ -4,7 +4,7 @@ In this extensive project, our primary emphasis will be on the practical real-wo
 
 - I plan to employ Terraform to establish a Kubernetes EKS cluster and dynamically integrate adaptable worker nodes into the system
 
-- Furthermore, I intend to deploy multiple applications using HELM, leveraging Kubernetes objects in conjunction with Helm. This approach includes dynamic provisioning of volumes to enable stateful pods.
+- Furthermore, I intend to deploy multiple applications using HELM, leveraging Kubernetes objects in conjunction with Helm. This approach includes dynamic provisioning of volumes to enable stateful pods
 
 - Finally, I will execute the deployment process via CI/CD using Jenkins.
 
